@@ -30,6 +30,8 @@ export const Index =()=>{
             resizeMode='contain'
             />
 
+            <Image source={require('@/assets/bg.png')} className='absolute'/>
+
         <Text className='text-zinc-400 font-regular text-center text-lg mt-3'>
             Invite your friends and  plan {'\n'} your next trip.
         </Text>
