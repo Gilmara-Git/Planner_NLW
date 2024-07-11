@@ -2,6 +2,8 @@ import '@/styles/global.css';
 import { Slot } from 'expo-router';
 import { View , StatusBar } from 'react-native';
 import { Loading } from '@/components/Loading';
+import '@/utils/dayjsLocaleConfig';
+
 
 
 import { 
