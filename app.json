@@ -13,13 +13,15 @@
       "backgroundColor": "##09090B"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gilmarapimentel.planner"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#09090B"
-      }
+      },
+      "package": "com.gilmarapimentel.planner"
     },
     "web": {
       "bundler": "metro",
