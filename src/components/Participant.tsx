@@ -19,7 +19,7 @@ const Participant = ({ data }: Props) => {
     <View className="w-full flex-row items-center">
       <View className="flex-1">
         <Text className="text-zinc-100 text-base font-semibold">
-          {data.name ?? "Pendente"}
+          {data.name ?? "Pending"}
         </Text>
 
         <Text className="text-zinc-400 text-sm">{data.email}</Text>
