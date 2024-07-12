@@ -18,7 +18,7 @@ const Button = ({variant= 'primary', isLoading, children, className, ...rest}: B
     <TouchableOpacity 
         disabled={isLoading}
         activeOpacity={0.7} 
-        className={clsx('h-11 flex-row items-center justify-center rounded-lg gap-2', 
+        className={clsx('h-11 flex-row items-center justify-center rounded-lg gap-2 px-2', 
         { 'bg-lime-300': variant === 'primary',
            'bg-zinc-800': variant === 'secondary' 
         },
